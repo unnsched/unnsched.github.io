@@ -1,0 +1,77 @@
+@import './assets/theme.css';
+
+:root {
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+input[type='date'] {
+  padding: 8px 16px;
+  border: 1px solid var(--outline);
+  background: var(--surface);
+  border-radius: var(--shape-xsmall);
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.singleline {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.clickable {
+  transition: background 360ms ease-out;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.clickable:hover {
+  background-color: rgba(var(--hover), 0.1);
+}
+.clickable:active {
+  background-color: rgba(var(--hover), 0.2);
+}

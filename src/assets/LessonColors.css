@@ -1,0 +1,23 @@
+.lesson-badge {
+  --lesson-kind-generic: #ece7ec;
+
+  /* Лекция */
+  --lesson-kind-262: #b3e185;
+
+  /* Лабораторная работа */
+  --lesson-kind-263: #78d2ff;
+  --lesson-kind-334: #78d2ff;
+
+  /* Практика */
+  --lesson-kind-264: #ffc26b;
+  --lesson-kind-335: #ffc26b;
+
+  /* Консультация */
+  --lesson-kind-271: #ae8fe9;
+
+  /* Экзамен */
+  --lesson-kind-271: #ff8080;
+
+  /* Зачет */
+  --lesson-kind-268: #ff80c7;
+}

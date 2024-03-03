@@ -1,0 +1,78 @@
+<!-- Credit: react-kawaii -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="201.6" height="320" viewBox="0 0 138 218">
+    <defs>
+        <path id="pocket__shape-path" d="M11.329 0h90.555c7.42 0 11.13 2.538 11.13 7.614v49.828c0 5.325-3.36 7.987-10.082 7.987H11.414c-8.474 0-12.23-2.6-11.267-7.802V7.263C.147 2.42 3.875 0 11.33 0z"></path>
+        <path id="pocket__shape__shadow-path" d="M11.329 0h90.555c7.42 0 11.13 2.538 11.13 7.614v49.828c0 5.325-3.36 7.987-10.082 7.987H11.414c-8.474 0-12.23-2.6-11.267-7.802V7.263C.147 2.42 3.875 0 11.33 0z"></path>
+    </defs>
+    <g id="kawaii-backpack" transform="translate(0 -1)">
+        <g id="right-shoulder-strap" transform="matrix(-1 0 0 1 125.901 13.054)">
+            <path id="right-shoulder-strap__back" fill="#8cc0e8" d="M0 5.948v43.619l13.879-14.792z"></path>
+            <path id="right-shoulder-strap__back__shadow" fill="#FFF" fill-rule="nonzero" opacity="0.4" d="M0 5.948v43.619l13.879-14.792z"></path>
+            <path id="right-shoulder-strap__front" fill="#8cc0e8" d="M9.193 34.697L0 5.127 21.014 0l7.735 24.677z"></path>
+        </g>
+        <g id="left-shoulder-strap" transform="translate(11.896 13.054)">
+            <path id="left-shoulder-strap__back" fill="#8cc0e8" d="M0 5.948v43.619l13.879-14.792z"></path>
+            <path id="left-shoulder-strap__back_shadow" fill="#FFF" fill-rule="nonzero" opacity="0.4" d="M0 5.948v43.619l13.879-14.792z"></path>
+            <path id="left-shoulder-strap__front" fill="#8cc0e8" d="M9.193 34.697L0 5.127 21.014 0l7.735 24.677z"></path>
+        </g>
+        <g id="hanging-loop" transform="translate(47.585)">
+            <path id="hanging-loop__back" fill="#8cc0e8" d="M16.853 7.931h9.913L21.81.991z"></path>
+            <path id="hanging-loop__back_shadow" fill="#121212" fill-rule="nonzero" opacity="0.14" d="M16.853 7.931h9.913L21.81.991z"></path>
+            <path id="hanging-loop__shape" fill="#8cc0e8" d="M0 33.872c3.088-9.656 5.841-16.215 8.258-19.678 1.945-2.786 4.895-4.488 6.72-6.462 3.444-3.722 5.393-6.574 6.665-6.574 1.12 0-3.688 3.488-5.891 10.96-1.04 3.529-2.014 10.78-2.919 21.754H0zm43.62.992H30.8c-.904-11.217-1.876-18.63-2.915-22.237-2.2-7.636-7.029-11.47-5.91-11.47 1.271 0 3.243 3.183 6.682 6.987 1.824 2.018 4.77 3.758 6.713 6.606 2.415 3.539 5.164 10.244 8.25 20.114z"></path>
+        </g>
+        <g id="main-compartment" transform="translate(0 26.617)">
+            <path id="main-compartment__shape" fill="#8cc0e8" d="M68.899 0c38.235 0 68.898 34.267 68.898 76.539v93.207c0 14.095-10.283 21.584-22.966 21.584H22.966C10.283 191.33 0 183.84 0 169.746V76.54C0 34.267 30.664 0 68.899 0z"></path>
+            <path id="main-compartment__bottom-stripe" fill="#121212" fill-rule="nonzero" d="M137.797 156.949v13.373c0 13.924-10.283 21.324-22.966 21.324H22.966c-12.683 0-22.966-7.4-22.966-21.324v-13.373h137.797z" opacity="0.07"></path>
+            <g id="kawaii-face" transform="translate(36 70)">
+                <defs>
+                    <path d="M1.45656876,3.14684877 C1.45656876,3.14684877 1.45656876,3.14684877 1.45656876,3.14684877 L0,3.14685315 C0,2.31818182 0.346033696,1.50734266 0.949429952,0.922027972 C1.55390756,0.335664336 2.38979521,0 3.2440659,0 L25.9525272,0 C26.8067979,0 27.6416041,0.335664336 28.2460818,0.922027972 C28.8505594,1.50734266 29.1965931,2.31818182 29.1965931,3.14685315 C29.1890236,5.85734266 28.240675,8.44825175 26.7127199,10.6814685 C25.1771954,12.9104895 23.0317865,14.8122378 20.4040931,16.0227273 C18.6544603,16.8251748 16.6809868,17.3087413 14.5982965,17.3076923 C11.4666916,17.3076923 8.61299495,16.2241259 6.33025392,14.5951049 C4.0399434,12.9587413 2.264358,10.779021 1.16245695,8.33811189 C0.431460764,6.70909091 0.0010813553,4.95314685 0,3.14685315 L1.45656896,3.14685315 Z" id="kawaii-face__path-1"></path>
+                </defs>
+                <g id="kawaii-face__mouth" transform="translate(18.000000, 16.000000)">
+                    <g id="kawaii-face__mouth__joy" transform="translate(0.000000, 1.000000)">
+                        <mask id="kawaii-face__mask-2-e3srxpbe3zt" fill="white">
+                            <use xlink:href="#kawaii-face__path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#000000" xlink:href="#kawaii-face__path-1"></use>
+                        <path d="M9.59865983,9.95467851 C9.59865983,9.95467851 9.59865983,9.95467851 9.59865983,9.95467851 L9,9.95467851 C9,9.66740582 9.14222222,9.38631493 9.39022222,9.18340586 C9.63866667,8.98013316 10.3333333,8 15,8 C19.6666667,8 20.3608889,8.98013316 20.6093333,9.18340586 C20.8577778,9.38631493 21,9.66740582 21,9.95467851 C20.9968889,10.8943148 20.6071111,11.7924965 19.9791111,12.5666783 C19.348,13.3394055 18.4662222,13.9986781 17.3862222,14.4183144 C16.6671111,14.6964962 15.856,14.8641326 15,14.8637689 C13.7128889,14.8637689 12.54,14.4881326 11.6017778,13.9234054 C10.6604444,13.3561327 9.93066667,12.6004964 9.47777778,11.7543147 C9.17733333,11.1895875 9.00044444,10.5808603 9,9.95467851 L9.59865983,9.95467851 Z" id="kawaii-face__tongue" fill="#E74144" mask="url(#kawaii-face__mask-2-e3srxpbe3zt" transform="translate(15.000000, 11.431885) scale(1, -1) translate(-15.000000, -11.431885)"></path>
+                    </g>
+                </g>
+                <g id="kawaii-face__blush" transform="translate(0.000000, 15.000000)" fill="#000000" opacity="0.2">
+                    <circle cx="3" cy="3" r="3"></circle>
+                    <circle cx="63" cy="3" r="3"></circle>
+                </g>
+                <g id="kawaii-face__eyes" transform="translate(2.000000, 0.000000)" fill="#000000">
+                    <g id="kawaii-face__eyes__circle" transform="translate(1.000000, 2.000000)">
+                        <circle cx="4.5" cy="4.5" r="4.5"></circle>
+                        <circle cx="56.5" cy="4.5" r="4.5"></circle>
+                    </g>
+                </g>
+            </g>
+            <path id="main-compartment__top" fill="#121212" fill-rule="nonzero" d="M137.797 82.423v-5.948C137.797 34.423 107.134.333 68.9.333S-.001 34.423 0 76.475v5.948C0 40.371 30.664 6.281 68.899 6.281s68.898 34.09 68.898 76.142z" opacity="0.07"></path>
+        </g>
+        <g id="pocket" transform="translate(12.888 135.981)">
+            <mask id="mask-4" fill="#fff">
+                <use xlink:href="#pocket__shape-path"></use>
+            </mask>
+            <use id="pocket__shape" fill="#8cc0e8" xlink:href="#pocket__shape-path"></use>
+            <mask id="mask-6" fill="#fff">
+                <use xlink:href="#pocket__shape__shadow-path"></use>
+            </mask>
+            <use id="pocket__shape__shadow" fill="#121212" fill-rule="nonzero" opacity="0.14" xlink:href="#pocket__shape__shadow-path"></use>
+            <g id="Group-6" mask="url(#mask-6)">
+                <g transform="translate(0 15.862)">
+                    <path id="Rectangle-7" fill="#33363B" opacity="0.408" d="M0 2.974h113.014v2.974H0z"></path>
+                    <path id="Rectangle-7-Copy" fill="#555D67" opacity="0.408" d="M0 0h113.014v2.974H0z"></path>
+                    <path id="Rectangle-8" fill="#6D727A" opacity="0.587" d="M107.066 0h5.948v5.948h-5.948z"></path>
+                    <path id="zip" fill="#49505A" d="M109.285 1.983h2.028l.547 8.922h-2.974l.4-8.922zm.592 6.94v.99h.991v-.99h-.99z" opacity="0.746"></path>
+                </g>
+            </g>
+            <g id="brand" mask="url(#mask-6)">
+                <g transform="translate(78.737 39.368)">
+                    <path id="Rectangle-6" fill="#FFFDFD" d="M0 0h27.789v18.526H0z"></path>
+                    <path id="Rectangle-6-Copy" fill="#121212" opacity="0.298" d="M1.158 1.158h25.474v16.211H1.158z"></path>
+                    <path id="brand" fill="#FFF" d="M2.316 2.316h23.158v13.895H2.316z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
