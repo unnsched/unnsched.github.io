@@ -72,6 +72,9 @@ watch(model, (newVal, oldVal) => {
 .date-sel {
   gap: 4px;
 }
+.date-sel * {
+  width: 100%;
+}
 
 .date-reset {
   align-items: center;
