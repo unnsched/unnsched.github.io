@@ -1,4 +1,4 @@
-//@ts-nocheck
+// @ts-nocheck
 
 // Object.groupBy: limited availability as of March 2024
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy

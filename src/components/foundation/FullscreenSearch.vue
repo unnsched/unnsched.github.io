@@ -45,7 +45,13 @@ const handleInput = debounce(() => {
   <Modal class="fullscreen-search__container d-flex flex-col">
     <div class="bar d-flex flex-row">
       <IconButton @click.stop="$emit('close')"> arrow_back </IconButton>
-      <input type="text" :placeholder="placeholder" v-model="searchQuery" @input="handleInput" autofocus />
+      <input
+        type="text"
+        :placeholder="placeholder"
+        v-model="searchQuery"
+        @input="handleInput"
+        autofocus
+      />
       <div v-if="isSearching">
         <MaterialIcon>circle</MaterialIcon>
       </div>
