@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Modal from './Modal.vue'
+import ModalBase from './ModalBase.vue'
 
 const model = defineModel<boolean>()
 </script>
 
 <template>
-  <Modal v-if="model" class="drawer" @close="model = false">
+  <ModalBase v-if="model" class="drawer" @close="model = false">
     <div class="drawer-content d-flex flex-col">
       <div class="drawer-content__header">
         <slot name="header"></slot>
@@ -17,7 +17,7 @@ const model = defineModel<boolean>()
         <slot name="footer"></slot>
       </div>
     </div>
-  </Modal>
+  </ModalBase>
 </template>
 
 <style>

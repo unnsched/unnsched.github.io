@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Snackbar from './foundation/Snackbar.vue'
+import SnackbarModal from './foundation/SnackbarModal.vue'
 import useSnackbar from '@/state/useSnackbar'
 
 const { isSnackbarVisible, snackbarContent, hideSnackbar } = useSnackbar()
 </script>
 
 <template>
-  <Snackbar :visible="isSnackbarVisible" @close="hideSnackbar">
+  <SnackbarModal :visible="isSnackbarVisible" @close="hideSnackbar">
     {{ snackbarContent }}
-  </Snackbar>
+  </SnackbarModal>
 </template>

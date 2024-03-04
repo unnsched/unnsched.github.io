@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ScheduleDay } from '@/types'
 import ScheduleLesson from './ScheduleLesson.vue'
-import Chip from './foundation/Chip.vue'
+import ChipBase from './foundation/ChipBase.vue'
 import { computed } from 'vue'
 
 const props = defineProps<{
@@ -20,7 +20,7 @@ const dayHeader = computed(() =>
 <template>
   <div class="day d-flex flex-col">
     <div class="day-header-wrapper d-flex">
-      <Chip>{{ dayHeader }}</Chip>
+      <ChipBase>{{ dayHeader }}</ChipBase>
     </div>
     <ScheduleLesson v-for="lesson in day.lessons" :key="lesson.lessonOid" :lesson="lesson" />
   </div>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ScheduleEntity } from '@/types'
-import Drawer from './foundation/Drawer.vue'
+import DrawerBase from './foundation/DrawerBase.vue'
 import AppDrawerEntityListItem from './AppDrawerEntityListItem.vue'
 import IconButton from './foundation/IconButton.vue'
 
@@ -19,7 +19,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <Drawer v-model="model" class="app-drawer">
+  <DrawerBase v-model="model" class="app-drawer">
     <template v-slot:header>
       <div class="header d-flex flex-col">
         <img class="logo" :src="`icon-192-maskable.png`" draggable="false" width="48" height="48" />
@@ -55,7 +55,7 @@ const emit = defineEmits<{
         <span>(c) Михаил Крылов, 2022-2024</span>
       </div>
     </template>
-  </Drawer>
+  </DrawerBase>
 </template>
 
 <style scoped>

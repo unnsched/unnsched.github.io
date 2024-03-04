@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Modal from './Modal.vue'
+import ModalBase from './ModalBase.vue'
 
 const model = defineModel<boolean>()
 </script>
 
 <template>
-  <Modal v-if="model" class="bottomsheet" @close="model = false">
+  <ModalBase v-if="model" class="bottomsheet" @close="model = false">
     <div class="bottomsheet-content d-flex flex-col">
       <div class="bottomsheet-content__spacer" />
       <div class="bottomsheet-content__headline">
@@ -15,7 +15,7 @@ const model = defineModel<boolean>()
         <slot></slot>
       </div>
     </div>
-  </Modal>
+  </ModalBase>
 </template>
 
 <style>

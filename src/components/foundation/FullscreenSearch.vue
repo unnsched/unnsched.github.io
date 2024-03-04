@@ -2,7 +2,7 @@
 import { ref, type Ref } from 'vue'
 import IconButton from './IconButton.vue'
 import debounce from '@/utils/debounce'
-import Modal from './Modal.vue'
+import ModalBase from './ModalBase.vue'
 import MaterialIcon from './MaterialIcon.vue'
 
 export type SearchResultSlotProps<T> = {
@@ -42,7 +42,7 @@ const handleInput = debounce(() => {
 </script>
 
 <template>
-  <Modal class="fullscreen-search__container d-flex flex-col">
+  <ModalBase class="fullscreen-search__container d-flex flex-col">
     <div class="bar d-flex flex-row">
       <IconButton @click.stop="$emit('close')"> arrow_back </IconButton>
       <input
@@ -66,7 +66,7 @@ const handleInput = debounce(() => {
     <div v-else-if="!!results" class="fullscreen-search__results d-flex flex-col">
       <slot v-for="result in results" :item="result" />
     </div>
-  </Modal>
+  </ModalBase>
 </template>
 
 <style>
