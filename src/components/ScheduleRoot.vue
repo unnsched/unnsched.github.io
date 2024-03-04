@@ -9,7 +9,7 @@ const props = defineProps<{
 
 <template>
   <div class="schedule-root d-flex flex-col">
-    <ScheduleDay :day="day" v-for="day in schedule.days" />
+    <ScheduleDay v-for="day in schedule.days" :key="day.date.getTime()" :day="day" />
     <div style="height: 4px" />
   </div>
 </template>

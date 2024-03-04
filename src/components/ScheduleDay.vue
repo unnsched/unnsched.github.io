@@ -22,7 +22,7 @@ const dayHeader = computed(() =>
     <div class="day-header-wrapper d-flex">
       <Chip>{{ dayHeader }}</Chip>
     </div>
-    <ScheduleLesson :lesson="lesson" v-for="lesson in day.lessons" />
+    <ScheduleLesson v-for="lesson in day.lessons" :key="lesson.lessonOid" :lesson="lesson" />
   </div>
 </template>
 

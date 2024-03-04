@@ -10,7 +10,7 @@ if (!Object.groupBy) {
     const result: Partial<Record<K, T[]>> = {}
 
     let index = 0
-    for (let item of items) {
+    for (const item of items) {
       const key = keySelector(item, index++)
       result[key] ??= []
       result[key]!!.push(item)

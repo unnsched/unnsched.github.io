@@ -86,7 +86,7 @@ const onDateSelect = (range?: DateRange) => {
     rangeBegin.value = range!!.begin
     rangeEnd.value = range!!.end
   }
-  if (!!currentEntity.value) {
+  if (currentEntity.value) {
     loadSchedule(currentEntity.value)
   }
 }

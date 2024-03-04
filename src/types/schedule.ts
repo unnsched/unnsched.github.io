@@ -27,6 +27,7 @@ export type ScheduleLesson = {
   building: string
   stream?: string
   date: Date
+  lessonOid: number
 }
 
 export type Schedule = {

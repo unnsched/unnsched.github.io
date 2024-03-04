@@ -30,6 +30,7 @@ const emit = defineEmits<{
 
     <AppDrawerEntityListItem
       v-for="entity in bookmarks"
+      :key="entity.id"
       :entity="entity"
       @click.stop="$emit('select', entity)"
     >
