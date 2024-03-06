@@ -30,7 +30,7 @@ export const getSchedule = (scope: ScheduleScope, id: string, range: DateRange) 
           // @ts-ignore
           days: Object.entries(Object.groupBy(res, (v) => (v as ScheduleDay).date as any)).map(
             ([key, value]) => ({
-              date: new Date(Date.parse(key)),
+              date: new Date(key),
               lessons: value as ScheduleLesson[]
             })
           )

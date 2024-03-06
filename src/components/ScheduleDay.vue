@@ -10,12 +10,12 @@ const props = defineProps<{
 }>()
 
 const dayHeader = computed(() =>
-  formatDate(props.day.date)
-  //props.day.date.toLocaleDateString('ru-RU', {
-  //  weekday: 'long',
-  //  day: 'numeric',
-  //  month: 'long'
-  //})
+  // formatDate(props.day.date)
+  props.day.date.toLocaleDateString('ru-RU', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long'
+  })
 )
 </script>
 

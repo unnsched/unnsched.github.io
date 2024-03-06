@@ -1,3 +1,5 @@
+// naive locale-independent implementation
+
 const daysOfWeek = [
     'понедельник',
     'вторник',
