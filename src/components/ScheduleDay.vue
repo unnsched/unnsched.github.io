@@ -3,7 +3,7 @@ import type { ScheduleDay } from '@/types'
 import ScheduleLesson from './ScheduleLesson.vue'
 import ChipBase from './foundation/ChipBase.vue'
 import { computed } from 'vue'
-import formatDate from '@/utils/formatDate';
+import formatDate from '@/utils/formatDate'
 
 const props = defineProps<{
   day: ScheduleDay

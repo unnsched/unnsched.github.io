@@ -22,10 +22,12 @@ body {
   margin: 0;
 }
 
-@supports(height: 100dvh) {
-  html, body { height: 100dvh; }
+@supports (height: 100dvh) {
+  html,
+  body {
+    height: 100dvh;
+  }
 }
- 
 
 a {
   color: var(--accent);
