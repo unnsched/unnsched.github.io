@@ -22,7 +22,14 @@ const emit = defineEmits<{
   <DrawerBase v-model="model" class="app-drawer">
     <template v-slot:header>
       <div class="header d-flex flex-col">
-        <img class="logo" :src="`icon-192-maskable.png`" draggable="false" width="48" height="48" />
+        <img
+          class="logo"
+          :src="`icon-192-maskable.png`"
+          draggable="false"
+          width="48"
+          height="48"
+          style="background: #0f68aa"
+        />
         Расписание ННГУ
         <span style="font-weight: lighter">Закладки</span>
       </div>
@@ -52,6 +59,7 @@ const emit = defineEmits<{
         <a href="UNNAndroid.apk">Приложение ННГУ для Android</a>
         <a href="UNNSched.apk">Расписание ННГУ для Android</a>
         <br />
+        <a href="https://github.com/unnsched/unnsched.github.io">Исходный код на GitHub</a>
         <span>(c) Михаил Крылов, 2022-2024</span>
       </div>
     </template>
