@@ -56,9 +56,8 @@ const emit = defineEmits<{
 
     <template v-slot:footer>
       <div class="footer d-flex flex-col">
-        <a href="UNNAndroid.apk">Приложение ННГУ для Android</a>
-        <a href="UNNSched.apk">Расписание ННГУ для Android</a>
-        <br />
+        <a href="https://github.com/kmichaelk/UNN-Android">Приложение ННГУ для Android</a>
+        <div style="height: 8px"></div>
         <a href="https://github.com/unnsched/unnsched.github.io">Исходный код на GitHub</a>
         <span>(c) Михаил Крылов, 2022-2024</span>
       </div>
